@@ -1,13 +1,15 @@
 do 
 funtion run(msg, matches)
 
-local text "delaram"
+local text "عشق منه"
 return text
-end
 end
 end
 
 return {
 patterns = {
 "^[#/!]([Dd]elaram)$",
-"^[#!/]([Dd]eli)
+"^[#!/]([Dd]eli)$"
+ }, 
+  run = run,
+}
